@@ -1,6 +1,6 @@
 # Flask REST API Project
 
-This is a RESTful API built with Flask, SQLAlchemy, and Marshmallow, using SQLite as the database. It also includes OpenAPI documentation for easy understanding and usage of the API endpoints.
+This is a RESTful API built with Connexion, Flask, SQLAlchemy, and Marshmallow, using SQLite as the database. The API is defined through .yml with OpenAPI. A Swagger UI is also provided for.
 
 ## Technologies Used
 
@@ -9,13 +9,14 @@ This is a RESTful API built with Flask, SQLAlchemy, and Marshmallow, using SQLit
 - Marshmallow: An ORM/ODM/framework-agnostic library for converting complex datatypes, such as objects, to and from Python data types.
 - SQLite: A C library that provides a lightweight disk-based database.
 - OpenAPI: A specification for machine-readable interface files for describing, producing, consuming, and visualizing RESTful web services.
+- Swagger UI: A visual and interactable representation of the API's resources, automatically generated from the OpenAPI specification.
 
 ## Getting Started
 
 1. Clone the repository:
 
    ```
-   git clone https://github.com/yourusername/yourrepository.git
+   git clone https://github.com/bimbomasheen/rp_flask_api.git
    ```
 
 2. Install the dependencies:
@@ -29,13 +30,13 @@ This is a RESTful API built with Flask, SQLAlchemy, and Marshmallow, using SQLit
    python app.py
    ```
 
+## Swagger UI
+
+Swagger UI available at `/api/ui` endpoint
+
 ## API Documentation
 
 The API documentation is available at `/api/docs` endpoint, which is powered by OpenAPI.
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 
